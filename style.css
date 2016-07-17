@@ -1,11 +1,29 @@
 /* Stylesheet to use on Folofl.github.io */
 
 /* Rule 1 */
-body {
-    background-color: #ccccff;
-}
+body { background-color: #ccccff; }
 
-/* Rule 2 */
+/* Rule 2 & 2.5*/
+h1 {
+    color: #26004d;
+}
+h2 {
+    color: #330066;
+}
 /* Rule 3 */
+#header {
+    font-size: 16px;
+    font-family: Helvetica;
+}
 /* Rule 4 */
+p {
+    margin: 0;
+    line-height: 90%;
+    font-size: 12px;
+    font-family: "Lucida Bright", Georgia, serif;
+    padding: 0px;
+}
 /* Rule 5 */
+.center {text-align: center;}
+/* Rule 6 */
+.indent {margin-right: 10%;}

@@ -26,7 +26,7 @@ p {
 /* Rule 5 */
 p.center {text-align: center;}
 /* Rule 6 */
-p.indent {text-indent:  10px;}
+p.indented {text-indent:  10px;}
 /* Rule 7 */
 p.main_info {font-weight: bold;}
 /* Rule 8 */

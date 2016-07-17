@@ -12,18 +12,23 @@ h2 {
 }
 /* Rule 3 */
 #header {
-    font-size: 16px;
+    font-size: 18px;
     font-family: Helvetica;
 }
 /* Rule 4 */
 p {
     margin: 0;
-    line-height: 90%;
-    font-size: 12px;
+    line-height: 100%;
+    font-size: 14px;
     font-family: "Lucida Bright", Georgia, serif;
     padding: 0px;
 }
 /* Rule 5 */
-.center {text-align: center;}
+p.center {text-align: center;}
 /* Rule 6 */
-.indent {margin-right: 10%;}
+p.indent {text-indent:  10px;}
+/* Rule 7 */
+p.main_info {font-weight: bold;}
+/* Rule 8 */
+p.detail_info {font-style: italic;}
+

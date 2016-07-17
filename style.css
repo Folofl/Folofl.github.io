@@ -10,25 +10,40 @@ h1 {
 h2 {
     color: #330066;
 }
+
 /* Rule 3 */
 #header {
     font-size: 18px;
     font-family: Helvetica;
 }
+
 /* Rule 4 */
 p {
+    margin: 0;
+    line-height: 100%;
+    font-size: 14px;
+    font-family: "Lucida Bright", Georgia;
+    padding: 0px;
+}
+
+/* Rule 5 */
+p.center {text-align: center;}
+
+/* Rule 6 */
+p.indented {text-indent:  50px;}
+
+/* Rule 7 */
+p.main_info {font-weight: bold;}
+
+/* Rule 8 */
+p.detail_info {font-style: italic;}
+
+/* Rule 9 */
+li {
     margin: 0;
     line-height: 100%;
     font-size: 14px;
     font-family: "Lucida Bright", Georgia, serif;
     padding: 0px;
 }
-/* Rule 5 */
-p.center {text-align: center;}
-/* Rule 6 */
-p.indented {text-indent:  10px;}
-/* Rule 7 */
-p.main_info {font-weight: bold;}
-/* Rule 8 */
-p.detail_info {font-style: italic;}
 

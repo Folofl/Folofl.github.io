@@ -36,7 +36,7 @@ p.indented {text-indent:  50px;}
 p.main_info {font-weight: bold;}
 
 /* Rule 8 */
-p.detail_info {font-style: italic;}
+.detail_info {font-style: italic;}
 
 /* Rule 9 */
 li {

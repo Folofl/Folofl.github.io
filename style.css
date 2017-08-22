@@ -60,3 +60,7 @@ p + ul {
 h2 + p {
     margin-top: -10px
 }
+
+.img-circle {
+    border-radius: 50%;
+}

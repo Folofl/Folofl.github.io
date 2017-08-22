@@ -38,7 +38,7 @@ p.center {text-align: center;}
 p.indented {text-indent:  50px;}
 
 /* Rule 7 */
-p.main_info {font-weight: bold;}
+.main_info {font-weight: bold;}
 
 /* Rule 8 */
 .detail_info {font-style: italic;}

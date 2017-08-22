@@ -1,7 +1,12 @@
 /* Stylesheet to use on Folofl.github.io */
 
 /* Rule 1 */
-body { background-color: #ccccff; }
+body { 
+    /*background-color: #ccccff; */
+    /*background-image:url('../images/bg_mint.png');*/
+    background-image:url('../images/bg_taro.png');
+    /*background-image:url('../images/bg_lilac.png');*/
+}
 
 /* Rule 2 & 2.5*/
 h1 {
@@ -40,6 +45,7 @@ p.main_info {font-weight: bold;}
 
 /* Rule 9 */
 li {
+    list-style-type: none;
     margin: 0;
     line-height: 100%;
     font-size: 16px;
@@ -47,3 +53,10 @@ li {
     padding: 0px;
 }
 
+p + ul {
+    margin-top: 2px;
+}
+
+h2 + p {
+    margin-top: -10px
+}

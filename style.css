@@ -25,6 +25,12 @@ body {
 .category {
     display: inline-block;
     width: 130px;
+    vertical-align: top;
+}
+
+.list {
+    display: inline-block;
+    width: 530px;
 }
 
 h1 {

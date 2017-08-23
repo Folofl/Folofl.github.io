@@ -1,6 +1,5 @@
 /* Stylesheet to use on Folofl.github.io */
 
-/* Rule 1 */
 body { 
     /*background-color: #ccccff; */
     /*background-image:url('../images/bg_mint.png');*/
@@ -8,59 +7,76 @@ body {
     /*background-image:url('../images/bg_lilac.png');*/
 }
 
-/* Rule 2 & 2.5*/
 h1 {
+    font-family: 'Quicksand', sans-serif;
     color: #26004d;
 }
 h2 {
+    font-family: 'Quicksand', sans-serif;
     color: #330066;
-}
-
-/* Rule 3 */
-#header {
-    font-size: 18px;
-    font-family: Helvetica;
-}
-
-/* Rule 4 */
+}           
+    
 p {
     margin: 0;
+    margin-left: 50px;
+
     line-height: 100%;
-    font-size: 16px;
-    font-family: "Lucida Bright", Georgia;
     padding: 0px;
+
+    font-size: 16px;
+    font-family: 'Gudea', sans-serif;
 }
 
-/* Rule 5 */
-p.center {text-align: center;}
+.center   {text-align: center }
 
-/* Rule 6 */
-p.indented {text-indent:  50px;}
+.indented {text-indent:  50px }
 
-/* Rule 7 */
-.main_info {font-weight: bold;}
+.bold     {font-weight: bold }
 
-/* Rule 8 */
-.detail_info {font-style: italic;}
-
-/* Rule 9 */
+.italic   {font-style: italic }
+        
 li {
-    list-style-type: none;
     margin: 0;
+    margin-left: 50px;
+
     line-height: 100%;
-    font-size: 16px;
-    font-family: "Lucida Bright", Georgia;
     padding: 0px;
+
+    /*list-style-type: none;*/
+
+    font-size: 16px;
+    font-family: 'Gudea', sans-serif;
 }
 
-p + ul {
-    margin-top: 2px;
-}
+p + ul { margin-top: 2px }
 
-h2 + p {
-    margin-top: -10px
-}
+h2 + p { margin-top: -10px }
 
 .img-circle {
     border-radius: 50%;
+}
+
+.button {
+    border: 2px solid;
+    border-color: #734770; 
+    border-radius: 4px;
+    padding: 15px 32px;
+
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    color: black;
+
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;        
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #734770;
+    color: white;
 }

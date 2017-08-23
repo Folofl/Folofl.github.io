@@ -7,9 +7,30 @@ body {
     /*background-image:url('../images/bg_lilac.png');*/
 }
 
+.canvas {
+    max-width: 900px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.22);
+}
+
+.resume {
+    max-width: 800px;
+    margin: auto;
+}
+
+.category {
+    display: inline-block;
+    width: 130px;
+}
+
 h1 {
     font-family: 'Quicksand', sans-serif;
     color: #26004d;
+    margin-bottom: 0px;
 }
 h2 {
     font-family: 'Quicksand', sans-serif;
@@ -27,13 +48,14 @@ p {
     font-family: 'Gudea', sans-serif;
 }
 
-.center   {text-align: center }
+.indent {text-indent : 50px }
 
-.indented {text-indent:  50px }
+.bold   {font-weight : bold }
 
-.bold     {font-weight: bold }
+.italic {font-style  : italic }
 
-.italic   {font-style: italic }
+.center {margin-left : 0px;
+         text-align  : center; }
         
 li {
     margin: 0;

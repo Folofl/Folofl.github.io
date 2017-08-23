@@ -9,22 +9,27 @@ body {
 
 .canvas {
     max-width: 900px;
+
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    background: white;
     padding: 10px;
+
+    background: white;
+
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.22);
 }
 
 .resume {
     max-width: 800px;
+
     margin: auto;
 }
 
 .category {
     display: inline-block;
     width: 130px;
+
     vertical-align: top;
 }
 
@@ -70,8 +75,6 @@ li {
     line-height: 100%;
     padding: 0px;
 
-    /*list-style-type: none;*/
-
     font-size: 16px;
     font-family: 'Gudea', sans-serif;
 }
@@ -85,9 +88,15 @@ h2 + p { margin-top: -10px }
 }
 
 .button {
+    margin: 4px 2px;
+
+    display: inline-block;
+    width: 100px;
+
     border: 2px solid;
     border-color: #734770; 
     border-radius: 4px;
+
     padding: 15px 32px;
 
     text-align: center;
@@ -95,12 +104,10 @@ h2 + p { margin-top: -10px }
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
     color: black;
-
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;        
+        
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
+
     cursor: pointer;
 }
 

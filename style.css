@@ -8,6 +8,21 @@ body {
 }
 
 .canvas {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.titlecard {
+    position: relative;          /* to canvas */
+    top: 35%;                    /* shifts title card by % of canvas height */
+    transform: translateY(-50%); /* shifts title card by % of its own height */
+    
+    /*border: 2px solid;
+    border-color: #734770; */
+}
+
+.sheet {
     max-width: 900px;
 
     margin: auto;
@@ -17,7 +32,8 @@ body {
 
     background: white;
 
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.22);
+    box-shadow: 0 4px 8px  0 rgba(0, 0, 0, 0.25), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.22);
 }
 
 .resume {
@@ -59,14 +75,14 @@ p {
     font-family: 'Gudea', sans-serif;
 }
 
-.indent {text-indent : 50px }
+.indent {text-indent : 50px   }
 
-.bold   {font-weight : bold }
+.bold   {font-weight : bold   }
 
 .italic {font-style  : italic }
 
 .center {margin-left : 0px;
-         text-align  : center; }
+         text-align  : center;}
         
 li {
     margin: 0;

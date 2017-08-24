@@ -1,10 +1,8 @@
 /* Stylesheet to use on Folofl.github.io */
 
 body { 
-    /*background-color: #ccccff; */
-    /*background-image:url('../images/bg_mint.png');*/
+    /* Remember to switch svg inverted color if you change this */
     background-image:url('../images/bg_taro.png');
-    /*background-image:url('../images/bg_lilac.png');*/
 }
 
 .canvas {
@@ -17,9 +15,6 @@ body {
     position: relative;          /* to canvas */
     top: 35%;                    /* shifts title card by % of canvas height */
     transform: translateY(-50%); /* shifts title card by % of its own height */
-    
-    /*border: 2px solid;
-    border-color: #734770; */
 }
 
 .sheet {
@@ -132,12 +127,39 @@ h2 + p { margin-top: -10px }
     cursor: pointer;
 }
 
+.button:hover {
+    background-color: #734770;
+    color: white;
+}
+
 .floating {
     position: fixed;
     z-index: 99;
 }
 
-.button:hover {
-    background-color: #734770;
-    color: white;
+.icon {
+    width: 50px;
+    height: 50px;
+
+    padding: 3px 3px;
+}
+
+.svg {
+    position: relative;          /* to button */
+    top: 50%;                    /* shifts svg by % of button height */
+    transform: translateY(-50%); /* shifts svg by % of its own height */
+
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+
+    fill: #734770;
+
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+/* On Home button hover, change the color of the SVG inside */
+#home_button:hover > #home_button_svg {
+    fill: #bb9bc7;
 }

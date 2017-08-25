@@ -164,7 +164,7 @@ h2 + p { margin-top: -10px }
     fill: #bb9bc7;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   #home_button {
     display: none;
   }

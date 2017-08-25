@@ -46,12 +46,11 @@ body {
     display: inline-block;
     width: 130px;
 
-    vertical-align: top;
+    /*vertical-align: top;*/
 }
 
 .list {
     display: inline-block;
-    /*width: 530px;*/
 }
 
 h1 {
@@ -164,17 +163,25 @@ h2 + p { margin-top: -10px }
     fill: #bb9bc7;
 }
 
-@media screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (max-width: 767px) { /*and (-webkit-min-device-pixel-ratio: 2) {*/
   #home_button {
     display: none;
   }
 
-  .sheet{
+  .sheet {
     max-width: none;
   }
 
-  .resume{
+  .resume {
     max-width: none;
+  }
+
+  .list {
+    position: relative;
+  }
+
+  .category {
+    position: relative;
   }
 }
 

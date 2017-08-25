@@ -163,3 +163,9 @@ h2 + p { margin-top: -10px }
 #home_button:hover > #home_button_svg {
     fill: #bb9bc7;
 }
+
+@media (max-width: 600px) {
+  #home_button {
+    display: none;
+  }
+}

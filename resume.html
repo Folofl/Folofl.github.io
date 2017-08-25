@@ -12,11 +12,22 @@
 </head>
 
 <body>
-    <a id="home_button" href="../index.html" class="button floating icon">
+        <script language="JavaScript" src="../mobilecheck.js" type="text/javascript"></script>
+        <script>
+            var a = navigator.userAgent;
+            var b = navigator.vendor;
+            if(!isMobile(a, b)) {
+                document.write('<a id="home_button" href="../index.html" class="button floating icon">' +
+                               '<svg id="home_button_svg" viewBox="0 0 100 100" class="svg center">' + 
+                               '<use xlink:href="../images/house.svg#house"></use></svg></a>');
+            }
+        </script>
+
+    <!-- <a id="home_button" href="../index.html" class="button floating icon">
         <svg id="home_button_svg" viewBox="0 0 100 100" class="svg center">
             <use xlink:href="../images/house.svg#house"></use>
         </svg>
-    </a>
+    </a> -->
 
     <div class="sheet">
         <div class="resume">

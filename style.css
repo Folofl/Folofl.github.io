@@ -165,7 +165,7 @@ h2 + p { margin-top: -10px }
 }
 
 /*@media screen and (max-width: 767px) { {*/
-@media screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2) {
+/*@media screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2) {
   #home_button {
     display: none;
   }
@@ -177,7 +177,7 @@ h2 + p { margin-top: -10px }
   .resume {
     min-width: 700px;
   }
-}
+}*/
 
 /*@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2) {
   #home_button {

@@ -24,6 +24,7 @@ body {
     top: 15px;
 
     max-width: 900px;
+    /*min-width: 700px;*/
 
     margin: auto;
     margin-top: 0px;
@@ -170,19 +171,11 @@ h2 + p { margin-top: -10px }
   }
 
   .sheet {
-    max-width: none;
+    min-width: 700px;
   }
 
   .resume {
-    max-width: none;
-  }
-
-  .list {
-    position: relative;
-  }
-
-  .category {
-    position: relative;
+    min-width: 700px;
   }
 }
 

@@ -143,7 +143,7 @@ h2 + p { margin-top: -10px }
     padding: 3px 3px;
 }
 
-.svg_social {
+.social {
     width: 35px;
     height: 35px;
 
@@ -151,6 +151,15 @@ h2 + p { margin-top: -10px }
 
     fill: #734770;
     fill-opacity: 0.6;
+
+    cursor: pointer;
+}
+
+.social:hover {
+    fill-opacity: 1.0;
+
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
 }
 
 .svg_in_button {
@@ -171,11 +180,4 @@ h2 + p { margin-top: -10px }
 /* On Home button hover, change the color of the SVG inside */
 #home_button:hover > #home_button_svg {
     fill: #bb9bc7;
-}
-
-#git_button_svg:hover {
-    fill-opacity: 1.0;
-
-    -webkit-transition-duration: 0.6s;
-    transition-duration: 0.6s;
 }

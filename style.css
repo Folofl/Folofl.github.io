@@ -3,6 +3,8 @@
 body { 
     /* Remember to switch svg inverted color if you change this */
     background-image:url('../images/bg_taro.png');
+    margin: 0px;
+    padding: 0px;
 }
 
 .canvas {
@@ -13,6 +15,7 @@ body {
 
 .titlecard {
     position: relative;          /* to canvas */
+
     top: 35%;                    /* shifts title card by % of canvas height */
     transform: translateY(-50%); /* shifts title card by % of its own height */
 }
